@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.navigation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(27, 53, 82);
+  color: white;
+  padding: 20px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+.dollar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 5px;
+  gap: 5px;
+}
+.dollar_input{
+  padding: 10px 5px;
+  width: 250px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+}
+.rupee{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 5px;
+  gap: 5px;
+}
+.rupee_input{
+  padding: 10px 5px;
+  width: 250px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+
+}
+.converter{
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   padding: 30px 15px;
+  }
+  .button_main{
+    border: none;
+    outline: none;
+    padding: 10px 40px 10px 40px;;
+    cursor: pointer;
+    background-color:  rgb(27, 53, 82);
+    color: white;
+  }
+  .cancel{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     padding: 10px 5px;
+  }
+  .button_cancel{
+     border: none;
+    outline: none;
+    padding: 10px 40px 10px 40px;
+    cursor: pointer;
+    background-color:  rgb(27, 53, 82);
+    color: white;
+  }
